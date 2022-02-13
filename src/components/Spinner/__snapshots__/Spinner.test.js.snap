@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spinner /> renders correctly 1`] = `
+<div
+  className="css-9nmcat"
+>
+  <div
+    className="css-z8ejhv"
+  />
+  <div
+    className="css-1te9qgf"
+  />
+</div>
+`;

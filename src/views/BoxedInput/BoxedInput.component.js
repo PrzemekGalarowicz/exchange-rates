@@ -27,8 +27,7 @@ const BoxedInput = ({
             size={size}
             loading={selectLoading}
             disabled={selectDisabled}
-            defaultValue={selectDefaultValue}
-          >
+            defaultValue={selectDefaultValue}>
             {selectOptions?.map((item, i) => (
               <option key={i}>{item}</option>
             ))}
@@ -74,8 +73,8 @@ BoxedInput.propTypes = {
   selectOptions: PropTypes.array.isRequired,
   inputLabel: PropTypes.string,
   inputType: PropTypes.string,
-  inputMin: PropTypes.string,
-  inputMax: PropTypes.string,
+  inputMin: PropTypes.number,
+  inputMax: PropTypes.number,
   inputLoading: PropTypes.bool,
   inputDisabled: PropTypes.bool,
   onChange: PropTypes.func

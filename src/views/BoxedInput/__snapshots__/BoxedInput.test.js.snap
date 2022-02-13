@@ -1,0 +1,793 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BoxedInput /> renders correctly 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <label
+        className="label"
+      >
+        Select label
+      </label>
+      <div
+        className="control"
+      >
+        <div
+          className="select is-large"
+        >
+          <select
+            defaultValue="PLN"
+            disabled={false}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <label
+        className="label"
+      >
+        Input label
+      </label>
+      <div
+        className="control"
+      >
+        <input
+          className="input is-large"
+          disabled={false}
+          max={100}
+          min={0}
+          onChange={[MockFunction]}
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BoxedInput /> renders correctly with inputDisabled state 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <label
+        className="label"
+      >
+        Select label
+      </label>
+      <div
+        className="control"
+      >
+        <div
+          className="select is-large"
+        >
+          <select
+            defaultValue="PLN"
+            disabled={false}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <label
+        className="label"
+      >
+        Input label
+      </label>
+      <div
+        className="control"
+      >
+        <input
+          className="input is-large"
+          disabled={true}
+          max={100}
+          min={0}
+          onChange={[MockFunction]}
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BoxedInput /> renders correctly with inputLoading state 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <label
+        className="label"
+      >
+        Select label
+      </label>
+      <div
+        className="control"
+      >
+        <div
+          className="select is-large"
+        >
+          <select
+            defaultValue="PLN"
+            disabled={false}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <label
+        className="label"
+      >
+        Input label
+      </label>
+      <div
+        className="control"
+      >
+        <input
+          className="input is-large"
+          disabled={false}
+          max={100}
+          min={0}
+          onChange={[MockFunction]}
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BoxedInput /> renders correctly with selectDisabled state 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <label
+        className="label"
+      >
+        Select label
+      </label>
+      <div
+        className="control"
+      >
+        <div
+          className="select is-large"
+        >
+          <select
+            defaultValue="PLN"
+            disabled={true}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <label
+        className="label"
+      >
+        Input label
+      </label>
+      <div
+        className="control"
+      >
+        <input
+          className="input is-large"
+          disabled={false}
+          max={100}
+          min={0}
+          onChange={[MockFunction]}
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BoxedInput /> renders correctly with selectLoading state 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <label
+        className="label"
+      >
+        Select label
+      </label>
+      <div
+        className="control"
+      >
+        <div
+          className="select is-large is-loading"
+        >
+          <select
+            defaultValue="PLN"
+            disabled={false}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <label
+        className="label"
+      >
+        Input label
+      </label>
+      <div
+        className="control"
+      >
+        <input
+          className="input is-large"
+          disabled={false}
+          max={100}
+          min={0}
+          onChange={[MockFunction]}
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BoxedInput /> renders correctly without inputLabel 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <label
+        className="label"
+      >
+        Select label
+      </label>
+      <div
+        className="control"
+      >
+        <div
+          className="select is-large"
+        >
+          <select
+            defaultValue="PLN"
+            disabled={false}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <div
+        className="control"
+      >
+        <input
+          className="input is-large"
+          disabled={false}
+          max={100}
+          min={0}
+          onChange={[MockFunction]}
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BoxedInput /> renders correctly without inputMax 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <label
+        className="label"
+      >
+        Select label
+      </label>
+      <div
+        className="control"
+      >
+        <div
+          className="select is-large"
+        >
+          <select
+            defaultValue="PLN"
+            disabled={false}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <label
+        className="label"
+      >
+        Input label
+      </label>
+      <div
+        className="control"
+      >
+        <input
+          className="input is-large"
+          disabled={false}
+          min={0}
+          onChange={[MockFunction]}
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BoxedInput /> renders correctly without inputMin 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <label
+        className="label"
+      >
+        Select label
+      </label>
+      <div
+        className="control"
+      >
+        <div
+          className="select is-large"
+        >
+          <select
+            defaultValue="PLN"
+            disabled={false}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <label
+        className="label"
+      >
+        Input label
+      </label>
+      <div
+        className="control"
+      >
+        <input
+          className="input is-large"
+          disabled={false}
+          max={100}
+          onChange={[MockFunction]}
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BoxedInput /> renders correctly without inputType 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <label
+        className="label"
+      >
+        Select label
+      </label>
+      <div
+        className="control"
+      >
+        <div
+          className="select is-large"
+        >
+          <select
+            defaultValue="PLN"
+            disabled={false}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <label
+        className="label"
+      >
+        Input label
+      </label>
+      <div
+        className="control"
+      >
+        <input
+          className="input is-large"
+          disabled={false}
+          max={100}
+          min={0}
+          onChange={[MockFunction]}
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BoxedInput /> renders correctly without selectDefaultValue 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <label
+        className="label"
+      >
+        Select label
+      </label>
+      <div
+        className="control"
+      >
+        <div
+          className="select is-large"
+        >
+          <select
+            defaultValue=""
+            disabled={false}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <label
+        className="label"
+      >
+        Input label
+      </label>
+      <div
+        className="control"
+      >
+        <input
+          className="input is-large"
+          disabled={false}
+          max={100}
+          min={0}
+          onChange={[MockFunction]}
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BoxedInput /> renders correctly without selectLabel 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <div
+        className="control"
+      >
+        <div
+          className="select is-large"
+        >
+          <select
+            defaultValue="PLN"
+            disabled={false}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <label
+        className="label"
+      >
+        Input label
+      </label>
+      <div
+        className="control"
+      >
+        <input
+          className="input is-large"
+          disabled={false}
+          max={100}
+          min={0}
+          onChange={[MockFunction]}
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BoxedInput /> renders correctly without size 1`] = `
+<div
+  className="field has-addons is-align-items-flex-end"
+>
+  <div
+    className="control"
+  >
+    <div
+      className="field"
+    >
+      <label
+        className="label"
+      >
+        Select label
+      </label>
+      <div
+        className="control"
+      >
+        <div
+          className="select is-medium"
+        >
+          <select
+            defaultValue="PLN"
+            disabled={false}
+          >
+            <option>
+              PLN
+            </option>
+            <option>
+              USD
+            </option>
+            <option>
+              EUR
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="control is-expanded"
+  >
+    <div
+      className="field is-align-items-flex-end"
+    >
+      <label
+        className="label"
+      >
+        Input label
+      </label>
+      <div
+        className="control"
+      >
+        <input
+          className="input is-medium"
+          disabled={false}
+          max={100}
+          min={0}
+          onChange={[MockFunction]}
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -44,7 +44,7 @@ function App() {
                 selectDisabled={!currencyCodesList}
                 inputLabel="Amount"
                 inputType="number"
-                inputMin="0.01"
+                inputMin={0.01}
                 inputDisabled={false}
                 onChange={handleChangeAmount}
               />
@@ -59,7 +59,7 @@ function App() {
                 selectDisabled={!currencyCodesList}
                 inputLabel="Amount"
                 inputType="number"
-                inputMin="0.01"
+                inputMin={0.01}
                 inputDisabled={false}
                 onChange={handleChangeAmount}
               />

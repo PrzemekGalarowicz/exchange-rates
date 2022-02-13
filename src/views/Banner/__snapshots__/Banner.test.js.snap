@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Banner /> renders correctly 1`] = `
+<section
+  className="section"
+>
+  <h1
+    className="title"
+  >
+    Title
+  </h1>
+  <h1
+    className="subtitle"
+  >
+    Subtitle
+  </h1>
+</section>
+`;
+
+exports[`<Banner /> renders correctly without subtitle 1`] = `
+<section
+  className="section"
+>
+  <h1
+    className="title"
+  >
+    Title
+  </h1>
+</section>
+`;

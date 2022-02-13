@@ -11,12 +11,13 @@ const BoxedInput = ({
   selectLoading,
   selectDefaultValue,
   selectOptions,
+  onSelectChange,
   inputLabel,
   inputMin,
   inputMax,
   inputDisabled,
   inputType,
-  onChange
+  onInputChange
 }) => (
   <Field kind="addons" alignItems="flex-end">
     <Control>
@@ -27,7 +28,8 @@ const BoxedInput = ({
             size={size}
             loading={selectLoading}
             disabled={selectDisabled}
-            defaultValue={selectDefaultValue}>
+            defaultValue={selectDefaultValue}
+            onChange={onSelectChange}>
             {selectOptions?.map((item, i) => (
               <option key={i}>{item}</option>
             ))}
@@ -45,7 +47,7 @@ const BoxedInput = ({
             min={inputMin}
             max={inputMax}
             disabled={inputDisabled}
-            onChange={onChange}
+            onChange={onInputChange}
           />
           {/* TODO: Add some loading state for inputs: {inputLoading && ???} */}
         </Control>
@@ -71,13 +73,14 @@ BoxedInput.propTypes = {
   selectLoading: PropTypes.bool,
   selectDefaultValue: PropTypes.string,
   selectOptions: PropTypes.array.isRequired,
+  onSelectChange: PropTypes.func,
   inputLabel: PropTypes.string,
   inputType: PropTypes.string,
   inputMin: PropTypes.number,
   inputMax: PropTypes.number,
   inputLoading: PropTypes.bool,
   inputDisabled: PropTypes.bool,
-  onChange: PropTypes.func
+  onInputChange: PropTypes.func
 };
 
 export default BoxedInput;

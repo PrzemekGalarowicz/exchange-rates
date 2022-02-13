@@ -24,6 +24,7 @@ exports[`<BoxedInput /> renders correctly 1`] = `
           <select
             defaultValue="PLN"
             disabled={false}
+            onChange={[MockFunction]}
           >
             <option>
               PLN
@@ -91,6 +92,7 @@ exports[`<BoxedInput /> renders correctly with inputDisabled state 1`] = `
           <select
             defaultValue="PLN"
             disabled={false}
+            onChange={[MockFunction]}
           >
             <option>
               PLN
@@ -158,6 +160,7 @@ exports[`<BoxedInput /> renders correctly with inputLoading state 1`] = `
           <select
             defaultValue="PLN"
             disabled={false}
+            onChange={[MockFunction]}
           >
             <option>
               PLN
@@ -225,6 +228,7 @@ exports[`<BoxedInput /> renders correctly with selectDisabled state 1`] = `
           <select
             defaultValue="PLN"
             disabled={true}
+            onChange={[MockFunction]}
           >
             <option>
               PLN
@@ -292,6 +296,7 @@ exports[`<BoxedInput /> renders correctly with selectLoading state 1`] = `
           <select
             defaultValue="PLN"
             disabled={false}
+            onChange={[MockFunction]}
           >
             <option>
               PLN
@@ -359,6 +364,7 @@ exports[`<BoxedInput /> renders correctly without inputLabel 1`] = `
           <select
             defaultValue="PLN"
             disabled={false}
+            onChange={[MockFunction]}
           >
             <option>
               PLN
@@ -421,6 +427,7 @@ exports[`<BoxedInput /> renders correctly without inputMax 1`] = `
           <select
             defaultValue="PLN"
             disabled={false}
+            onChange={[MockFunction]}
           >
             <option>
               PLN
@@ -487,6 +494,7 @@ exports[`<BoxedInput /> renders correctly without inputMin 1`] = `
           <select
             defaultValue="PLN"
             disabled={false}
+            onChange={[MockFunction]}
           >
             <option>
               PLN
@@ -553,6 +561,7 @@ exports[`<BoxedInput /> renders correctly without inputType 1`] = `
           <select
             defaultValue="PLN"
             disabled={false}
+            onChange={[MockFunction]}
           >
             <option>
               PLN
@@ -620,6 +629,7 @@ exports[`<BoxedInput /> renders correctly without selectDefaultValue 1`] = `
           <select
             defaultValue=""
             disabled={false}
+            onChange={[MockFunction]}
           >
             <option>
               PLN
@@ -682,6 +692,7 @@ exports[`<BoxedInput /> renders correctly without selectLabel 1`] = `
           <select
             defaultValue="PLN"
             disabled={false}
+            onChange={[MockFunction]}
           >
             <option>
               PLN
@@ -749,6 +760,7 @@ exports[`<BoxedInput /> renders correctly without size 1`] = `
           <select
             defaultValue="PLN"
             disabled={false}
+            onChange={[MockFunction]}
           >
             <option>
               PLN

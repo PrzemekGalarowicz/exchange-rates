@@ -9,12 +9,13 @@ const defaultProps = {
   selectLoading: false,
   selectDefaultValue: 'PLN',
   selectOptions: ['PLN', 'USD', 'EUR'],
+  onSelectChange: jest.fn(),
   inputLabel: 'Input label',
   inputMin: 0,
   inputMax: 100,
   inputDisabled: false,
   inputType: 'number',
-  onChange: jest.fn()
+  onInputChange: jest.fn()
 };
 
 describe('<BoxedInput />', () => {

@@ -53,6 +53,7 @@ exports[`<App /> renders correctly 1`] = `
                     <select
                       defaultValue="PLN"
                       disabled={false}
+                      onChange={[Function]}
                     >
                       <option>
                         AED
@@ -648,6 +649,7 @@ exports[`<App /> renders correctly 1`] = `
                     <select
                       defaultValue="EUR"
                       disabled={false}
+                      onChange={[Function]}
                     >
                       <option>
                         AED
@@ -1219,16 +1221,6 @@ exports[`<App /> renders correctly 1`] = `
         </div>
       </div>
     </section>
-  </div>
-  <div
-    className="css-9nmcat"
-  >
-    <div
-      className="css-z8ejhv"
-    />
-    <div
-      className="css-1te9qgf"
-    />
   </div>
 </div>
 `;

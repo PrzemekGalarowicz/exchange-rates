@@ -27,7 +27,8 @@ const BoxedInput = ({
             size={size}
             loading={selectLoading}
             disabled={selectDisabled}
-            defaultValue={selectDefaultValue}>
+            defaultValue={selectDefaultValue}
+          >
             {selectOptions?.map((item, i) => (
               <option key={i}>{item}</option>
             ))}
